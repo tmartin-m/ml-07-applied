@@ -21,75 +21,46 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+I added an additional chart to analyze the feature sensitivity for "flipper_length_mm". Adding the additional chart allows for comparison of the features effects on the model's output. I copied section 3 and updated everything that was bill_length_mm to flipper_length_mm and ran all cells in the notebook. The update was scucessful and the chart and predictions generated. I did question the generated chart because of it only returning results for 1 species. I tested several different number of instance to see if increasing or decreasing affected the outputs at all but every modifiction I made still only produced Adelie results.
 
-Include:
-
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
-
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
+The modification was an easy one using the original code for the bill_length_mm feature and just copying and adding a new code cell to update for flipper_length_mm leaving my updated project code very similar to the example project.
 
 ## Phase 5. Custom Project
 
-Describe your custom investigation of the deployed model.
-
-Be specific about what changed from the example project.
+For my custom project I expandeded section 3 further making additional feature sensitivity sections for the remaining 2 features: bill_depth_mm and body_mass_g. I also added a bar chart to compare the species prediction changes by feature.
 
 ### Basis and API
 
-Describe the deployed model and API you started with.
+The custom project uses the same endpoint predictor from the example hosted on render: https://ml-penguin-predictor.onrender.com/predict. It uses physical measurement features of penguins trained on the Seaborn Penguins dataset to predict which of the 3 species it may belong to. I chose to keep the same endpoint because I wanted to ensure that the expansion of feature sensitivity was correct.
 
-Include:
-
-- The example model and what it predicts
-- The API endpoint and what inputs it expects
-- Why you chose to keep or change the endpoint or model
+I have started working to try and host my iris predictor on render from last week to try and expand my understanding of this week's skills but ran into some issues with the model.joblib file.
 
 ### Investigation Approach
 
-Describe how you investigated the model's behavior.
-
-Include:
-
-- Which features you varied and why
-- How you structured your tests (single feature, grid, edge cases)
-- What you were trying to learn about the model
+I kept each of the feature sensitivity tests single features and just added the additional to ensure there was one an analysis for each feature. By doing this I was hoping to learn which feature has more influence on the model's predictions.
 
 ### Findings: Feature Sensitivity
 
-Describe what you observed when varying individual features.
+The feature sensitivity findings confused me. For each of the additional charts I added the all returned the same results of only Adelie species. I was concerned there was an error within my updates to the copied code with all the additional charts only returning 1 species.
 
-Include:
+I updated the code to try different number of instances for different features but the charts still only returned 1 species which led me to conclude that even when the feature was changing substantially, the overall feature vector  was still withn the Adelie region.
 
-- Which features had the most influence on predictions
-- Where the decision boundary appeared to shift
-- Any surprising or counterintuitive results
+I added a bar chart to compare the number of transtitions from each features scatterplot. Reinforcing that the model is more sensitive to bill_length_mm than any of the other features.
+
+![Bar Chart](./docs/images/output.png)
 
 ### Findings: Edge Cases
 
-Describe what happened with unusual or invalid inputs.
+The decision boundary plot shows that the model often predicts only Adelie or Gentoo across the tested ranges, with no area classified as Chinstrap. This shows the model is highly influenced by bill length and less to other features.
 
-Include:
+For invalid feature measurements like 0 values, negative values, extremely large/small values were still returning species predictions.
 
-- What edge cases you tested
-- How the API responded (prediction, error, or unexpected behavior)
-- What this tells you about the model's robustness
+The model is robust enough to generate predictions for a wide range of inputs even when  they aren't possible for an actual penguin, but that is also a limitation because the model isn't recognizing what is an invalid feature measurement.
 
 ### Summary
 
-Summarize your custom investigation.
+For my custom project I expanded the feature sensitivity analysis allowing all 4 features to be evaluated individually continuing to use the render hosted API. I was able to concluded that the model is the most sensitive to bill_length_mm.
 
-Include:
+The model is confident because ie was able to clearly separate the Adelie and Gentoo region in the boundary chart and consistently classified species across many valid measurement combos. The model is fragile because it also made predictions on invalid measuresments like negative values, zero values, or extremely large values. Adding input validation could help fix the failures.
 
-- What you learned about the model's behavior
-- Where it appears confident and where it seems fragile
-- What you would change about the API contract or model
-- What kinds of real problems this approach could apply to
-
-Display at least one chart or screenshot showing your findings.
+These machine learning techniques could be applied to many real world problems like medical diagnosis using patient measurements, species identification in wildlife research, or fraud detection in financial transactions.

@@ -661,3 +661,2329 @@ dtype: int64
 2026-08-11 20:00:33 | INFO | M07 |   scikit-learn: 1.9.0
 2026-08-11 20:00:33 | INFO | M07 |   seaborn:      0.13.2
 2026-08-11 20:00:33 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:10:54 | INFO | M07 | === RUN START ===
+2026-08-12 21:10:54 | INFO | M07 | project=M07
+2026-08-12 21:10:54 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:10:54 | INFO | M07 | python=3.14.3
+2026-08-12 21:10:54 | INFO | M07 | os=Windows 11
+2026-08-12 21:10:54 | INFO | M07 | shell=powershell
+2026-08-12 21:10:54 | INFO | M07 | cwd=notebooks
+2026-08-12 21:10:54 | INFO | M07 | github_actions=False
+2026-08-12 21:10:54 | INFO | M07 | Confirming installation:
+2026-08-12 21:10:54 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:10:54 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:10:54 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:10:54 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:10:54 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:10:54 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:10:54 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:10:54 | INFO | M07 | Baseline predictions:
+2026-08-12 21:11:26 | INFO | M07 |   expected=Adelie     got=TIMEOUT (server may be sleeping - try again) [MISMATCH]
+2026-08-12 21:11:56 | INFO | M07 |   expected=Chinstrap  got=TIMEOUT (server may be sleeping - try again) [MISMATCH]
+2026-08-12 21:11:58 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:12:02 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:12:02 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:12:03 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:15:06 | INFO | M07 | === RUN START ===
+2026-08-12 21:15:06 | INFO | M07 | project=M07
+2026-08-12 21:15:06 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:15:06 | INFO | M07 | python=3.14.3
+2026-08-12 21:15:06 | INFO | M07 | os=Windows 11
+2026-08-12 21:15:06 | INFO | M07 | shell=powershell
+2026-08-12 21:15:06 | INFO | M07 | cwd=notebooks
+2026-08-12 21:15:06 | INFO | M07 | github_actions=False
+2026-08-12 21:15:06 | INFO | M07 | Confirming installation:
+2026-08-12 21:15:06 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:15:06 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:15:06 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:15:06 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:15:06 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:15:06 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:15:06 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:15:07 | INFO | M07 | Baseline predictions:
+2026-08-12 21:15:07 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:15:08 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:15:09 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:15:13 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:15:13 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:15:14 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:15:17 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:15:17 | INFO | M07 |  flipper_length_mm prediction
+         30.000000     Adelie
+         31.578947     Adelie
+         33.157895     Adelie
+         34.736842     Adelie
+         36.315789     Adelie
+         37.894737     Adelie
+         39.473684     Adelie
+         41.052632     Adelie
+         42.631579     Adelie
+         44.210526     Adelie
+         45.789474     Adelie
+         47.368421     Adelie
+         48.947368     Adelie
+         50.526316     Adelie
+         52.105263     Adelie
+         53.684211     Adelie
+         55.263158     Adelie
+         56.842105     Adelie
+         58.421053     Adelie
+         60.000000     Adelie
+2026-08-12 21:15:18 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:15:42 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:15:42 | INFO | M07 | Edge case results:
+2026-08-12 21:15:43 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:15:43 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:15:45 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:15:45 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:15:46 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:15:46 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:15:46 | INFO | M07 | ========================
+2026-08-12 21:15:46 | INFO | M07 | SUMMARY
+2026-08-12 21:15:46 | INFO | M07 | ========================
+2026-08-12 21:15:46 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:15:46 | INFO | M07 | ========================
+2026-08-12 21:18:37 | INFO | M07 | === RUN START ===
+2026-08-12 21:18:37 | INFO | M07 | project=M07
+2026-08-12 21:18:37 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:18:37 | INFO | M07 | python=3.14.3
+2026-08-12 21:18:37 | INFO | M07 | os=Windows 11
+2026-08-12 21:18:37 | INFO | M07 | shell=powershell
+2026-08-12 21:18:37 | INFO | M07 | cwd=notebooks
+2026-08-12 21:18:37 | INFO | M07 | github_actions=False
+2026-08-12 21:18:37 | INFO | M07 | Confirming installation:
+2026-08-12 21:18:37 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:18:37 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:18:37 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:18:37 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:18:37 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:18:37 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:18:37 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:18:37 | INFO | M07 | Baseline predictions:
+2026-08-12 21:18:38 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:18:38 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:18:39 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:18:44 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:18:44 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:18:44 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:18:53 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:18:53 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        171.538462     Adelie
+        173.076923     Adelie
+        174.615385     Adelie
+        176.153846     Adelie
+        177.692308     Adelie
+        179.230769     Adelie
+        180.769231     Adelie
+        182.307692     Adelie
+        183.846154     Adelie
+        185.384615     Adelie
+        186.923077     Adelie
+        188.461538     Adelie
+        190.000000     Adelie
+        191.538462     Adelie
+        193.076923     Adelie
+        194.615385     Adelie
+        196.153846     Adelie
+        197.692308     Adelie
+        199.230769     Adelie
+        200.769231     Adelie
+        202.307692     Adelie
+        203.846154     Adelie
+        205.384615     Adelie
+        206.923077     Adelie
+        208.461538     Adelie
+        210.000000     Adelie
+        211.538462     Adelie
+        213.076923     Adelie
+        214.615385     Adelie
+        216.153846     Adelie
+        217.692308     Adelie
+        219.230769     Adelie
+        220.769231     Adelie
+        222.307692     Adelie
+        223.846154     Adelie
+        225.384615     Adelie
+        226.923077     Adelie
+        228.461538     Adelie
+        230.000000     Adelie
+2026-08-12 21:18:53 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:19:14 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:19:14 | INFO | M07 | Edge case results:
+2026-08-12 21:19:14 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:19:14 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:19:15 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:19:15 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:19:15 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:19:15 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:19:15 | INFO | M07 | ========================
+2026-08-12 21:19:15 | INFO | M07 | SUMMARY
+2026-08-12 21:19:15 | INFO | M07 | ========================
+2026-08-12 21:19:15 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:19:15 | INFO | M07 | ========================
+2026-08-12 21:20:43 | INFO | M07 | === RUN START ===
+2026-08-12 21:20:43 | INFO | M07 | project=M07
+2026-08-12 21:20:43 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:20:43 | INFO | M07 | python=3.14.3
+2026-08-12 21:20:43 | INFO | M07 | os=Windows 11
+2026-08-12 21:20:43 | INFO | M07 | shell=powershell
+2026-08-12 21:20:43 | INFO | M07 | cwd=notebooks
+2026-08-12 21:20:43 | INFO | M07 | github_actions=False
+2026-08-12 21:20:43 | INFO | M07 | Confirming installation:
+2026-08-12 21:20:43 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:20:43 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:20:43 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:20:43 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:20:43 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:20:43 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:20:43 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:20:43 | INFO | M07 | Baseline predictions:
+2026-08-12 21:20:44 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:20:44 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:20:44 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:20:49 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:20:49 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:20:49 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:20:54 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:20:54 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:20:54 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:21:18 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:21:19 | INFO | M07 | Edge case results:
+2026-08-12 21:21:19 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:21:19 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:21:19 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:21:19 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:21:20 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:21:20 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:21:20 | INFO | M07 | ========================
+2026-08-12 21:21:20 | INFO | M07 | SUMMARY
+2026-08-12 21:21:20 | INFO | M07 | ========================
+2026-08-12 21:21:20 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:21:20 | INFO | M07 | ========================
+2026-08-12 21:25:36 | INFO | M07 | === RUN START ===
+2026-08-12 21:25:36 | INFO | M07 | project=M07
+2026-08-12 21:25:36 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:25:36 | INFO | M07 | python=3.14.3
+2026-08-12 21:25:36 | INFO | M07 | os=Windows 11
+2026-08-12 21:25:36 | INFO | M07 | shell=powershell
+2026-08-12 21:25:36 | INFO | M07 | cwd=notebooks
+2026-08-12 21:25:36 | INFO | M07 | github_actions=False
+2026-08-12 21:25:36 | INFO | M07 | Confirming installation:
+2026-08-12 21:25:36 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:25:36 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:25:36 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:25:36 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:25:36 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:25:36 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:25:36 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:25:36 | INFO | M07 | Baseline predictions:
+2026-08-12 21:25:37 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:25:38 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:25:39 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:25:44 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:25:44 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:25:44 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:25:48 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:25:48 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:25:48 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:25:53 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:25:53 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:25:53 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:26:15 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:26:15 | INFO | M07 | Edge case results:
+2026-08-12 21:26:15 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:26:16 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:26:16 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:26:16 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:26:16 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:26:16 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:26:16 | INFO | M07 | ========================
+2026-08-12 21:26:16 | INFO | M07 | SUMMARY
+2026-08-12 21:26:16 | INFO | M07 | ========================
+2026-08-12 21:26:16 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:26:16 | INFO | M07 | ========================
+2026-08-12 21:28:56 | INFO | M07 | === RUN START ===
+2026-08-12 21:28:56 | INFO | M07 | project=M07
+2026-08-12 21:28:56 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:28:56 | INFO | M07 | python=3.14.3
+2026-08-12 21:28:56 | INFO | M07 | os=Windows 11
+2026-08-12 21:28:56 | INFO | M07 | shell=powershell
+2026-08-12 21:28:56 | INFO | M07 | cwd=notebooks
+2026-08-12 21:28:56 | INFO | M07 | github_actions=False
+2026-08-12 21:28:56 | INFO | M07 | Confirming installation:
+2026-08-12 21:28:56 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:28:56 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:28:56 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:28:56 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:28:56 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:28:56 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:28:56 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:28:56 | INFO | M07 | Baseline predictions:
+2026-08-12 21:28:57 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:28:58 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:28:58 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:29:04 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:29:04 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:29:04 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:29:09 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:29:09 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:29:09 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:29:14 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:29:14 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:29:14 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:29:19 | INFO | M07 | body_mass_g sweep:
+2026-08-12 21:29:19 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2889.473684     Adelie
+ 3078.947368     Adelie
+ 3268.421053     Adelie
+ 3457.894737     Adelie
+ 3647.368421     Adelie
+ 3836.842105     Adelie
+ 4026.315789     Adelie
+ 4215.789474     Adelie
+ 4405.263158     Adelie
+ 4594.736842     Adelie
+ 4784.210526     Adelie
+ 4973.684211     Adelie
+ 5163.157895     Adelie
+ 5352.631579     Adelie
+ 5542.105263     Adelie
+ 5731.578947     Adelie
+ 5921.052632     Adelie
+ 6110.526316     Adelie
+ 6300.000000     Adelie
+2026-08-12 21:29:19 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:29:42 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:29:42 | INFO | M07 | Edge case results:
+2026-08-12 21:29:42 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:29:42 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:29:42 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:29:42 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:29:43 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:29:43 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:29:43 | INFO | M07 | ========================
+2026-08-12 21:29:43 | INFO | M07 | SUMMARY
+2026-08-12 21:29:43 | INFO | M07 | ========================
+2026-08-12 21:29:43 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:29:43 | INFO | M07 | ========================
+2026-08-12 21:31:54 | INFO | M07 | === RUN START ===
+2026-08-12 21:31:54 | INFO | M07 | project=M07
+2026-08-12 21:31:54 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:31:54 | INFO | M07 | python=3.14.3
+2026-08-12 21:31:54 | INFO | M07 | os=Windows 11
+2026-08-12 21:31:54 | INFO | M07 | shell=powershell
+2026-08-12 21:31:54 | INFO | M07 | cwd=notebooks
+2026-08-12 21:31:54 | INFO | M07 | github_actions=False
+2026-08-12 21:31:54 | INFO | M07 | Confirming installation:
+2026-08-12 21:31:54 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:31:54 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:31:54 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:31:54 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:31:54 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:31:54 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:31:54 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:31:54 | INFO | M07 | Baseline predictions:
+2026-08-12 21:31:55 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:31:56 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:31:57 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:32:02 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:32:02 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:32:02 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:32:07 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:32:07 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:32:07 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:32:11 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:32:11 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:32:11 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:32:22 | INFO | M07 | body_mass_g sweep:
+2026-08-12 21:32:22 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2773.469388     Adelie
+ 2846.938776     Adelie
+ 2920.408163     Adelie
+ 2993.877551     Adelie
+ 3067.346939     Adelie
+ 3140.816327     Adelie
+ 3214.285714     Adelie
+ 3287.755102     Adelie
+ 3361.224490     Adelie
+ 3434.693878     Adelie
+ 3508.163265     Adelie
+ 3581.632653     Adelie
+ 3655.102041     Adelie
+ 3728.571429     Adelie
+ 3802.040816     Adelie
+ 3875.510204     Adelie
+ 3948.979592     Adelie
+ 4022.448980     Adelie
+ 4095.918367     Adelie
+ 4169.387755     Adelie
+ 4242.857143     Adelie
+ 4316.326531     Adelie
+ 4389.795918     Adelie
+ 4463.265306     Adelie
+ 4536.734694     Adelie
+ 4610.204082     Adelie
+ 4683.673469     Adelie
+ 4757.142857     Adelie
+ 4830.612245     Adelie
+ 4904.081633     Adelie
+ 4977.551020     Adelie
+ 5051.020408     Adelie
+ 5124.489796     Adelie
+ 5197.959184     Adelie
+ 5271.428571     Adelie
+ 5344.897959     Adelie
+ 5418.367347     Adelie
+ 5491.836735     Adelie
+ 5565.306122     Adelie
+ 5638.775510     Adelie
+ 5712.244898     Adelie
+ 5785.714286     Adelie
+ 5859.183673     Adelie
+ 5932.653061     Adelie
+ 6006.122449     Adelie
+ 6079.591837     Adelie
+ 6153.061224     Adelie
+ 6226.530612     Adelie
+ 6300.000000     Adelie
+2026-08-12 21:32:22 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:32:48 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:32:48 | INFO | M07 | Edge case results:
+2026-08-12 21:32:48 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:32:49 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:32:51 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:32:51 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:32:52 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:32:52 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:32:52 | INFO | M07 | ========================
+2026-08-12 21:32:52 | INFO | M07 | SUMMARY
+2026-08-12 21:32:52 | INFO | M07 | ========================
+2026-08-12 21:32:52 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:32:52 | INFO | M07 | ========================
+2026-08-12 21:38:51 | INFO | M07 | === RUN START ===
+2026-08-12 21:38:51 | INFO | M07 | project=M07
+2026-08-12 21:38:51 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:38:51 | INFO | M07 | python=3.14.3
+2026-08-12 21:38:51 | INFO | M07 | os=Windows 11
+2026-08-12 21:38:51 | INFO | M07 | shell=powershell
+2026-08-12 21:38:51 | INFO | M07 | cwd=notebooks
+2026-08-12 21:38:51 | INFO | M07 | github_actions=False
+2026-08-12 21:38:51 | INFO | M07 | Confirming installation:
+2026-08-12 21:38:51 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:38:51 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:38:51 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:38:51 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:38:51 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:38:51 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:38:51 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:38:52 | INFO | M07 | Baseline predictions:
+2026-08-12 21:38:53 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:38:53 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:38:54 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:38:59 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:38:59 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:38:59 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:39:04 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:39:04 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:39:04 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:39:08 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:39:08 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:39:08 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:39:19 | INFO | M07 | body_mass_g sweep:
+2026-08-12 21:39:19 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2773.469388     Adelie
+ 2846.938776     Adelie
+ 2920.408163     Adelie
+ 2993.877551     Adelie
+ 3067.346939     Adelie
+ 3140.816327     Adelie
+ 3214.285714     Adelie
+ 3287.755102     Adelie
+ 3361.224490     Adelie
+ 3434.693878     Adelie
+ 3508.163265     Adelie
+ 3581.632653     Adelie
+ 3655.102041     Adelie
+ 3728.571429     Adelie
+ 3802.040816     Adelie
+ 3875.510204     Adelie
+ 3948.979592     Adelie
+ 4022.448980     Adelie
+ 4095.918367     Adelie
+ 4169.387755     Adelie
+ 4242.857143     Adelie
+ 4316.326531     Adelie
+ 4389.795918     Adelie
+ 4463.265306     Adelie
+ 4536.734694     Adelie
+ 4610.204082     Adelie
+ 4683.673469     Adelie
+ 4757.142857     Adelie
+ 4830.612245     Adelie
+ 4904.081633     Adelie
+ 4977.551020     Adelie
+ 5051.020408     Adelie
+ 5124.489796     Adelie
+ 5197.959184     Adelie
+ 5271.428571     Adelie
+ 5344.897959     Adelie
+ 5418.367347     Adelie
+ 5491.836735     Adelie
+ 5565.306122     Adelie
+ 5638.775510     Adelie
+ 5712.244898     Adelie
+ 5785.714286     Adelie
+ 5859.183673     Adelie
+ 5932.653061     Adelie
+ 6006.122449     Adelie
+ 6079.591837     Adelie
+ 6153.061224     Adelie
+ 6226.530612     Adelie
+ 6300.000000     Adelie
+2026-08-12 21:39:19 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:39:40 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:39:40 | INFO | M07 | Edge case results:
+2026-08-12 21:39:40 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:39:41 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:39:41 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:39:41 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:39:41 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:39:41 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:39:41 | INFO | M07 | ========================
+2026-08-12 21:39:41 | INFO | M07 | SUMMARY
+2026-08-12 21:39:41 | INFO | M07 | ========================
+2026-08-12 21:39:41 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:39:41 | INFO | M07 | ========================
+2026-08-12 21:42:11 | INFO | M07 | === RUN START ===
+2026-08-12 21:42:11 | INFO | M07 | project=M07
+2026-08-12 21:42:11 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:42:11 | INFO | M07 | python=3.14.3
+2026-08-12 21:42:11 | INFO | M07 | os=Windows 11
+2026-08-12 21:42:11 | INFO | M07 | shell=powershell
+2026-08-12 21:42:11 | INFO | M07 | cwd=notebooks
+2026-08-12 21:42:11 | INFO | M07 | github_actions=False
+2026-08-12 21:42:11 | INFO | M07 | Confirming installation:
+2026-08-12 21:42:11 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:42:11 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:42:11 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:42:11 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:42:11 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:42:11 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:42:11 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:42:11 | INFO | M07 | Baseline predictions:
+2026-08-12 21:42:12 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:42:12 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:42:12 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:42:16 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:42:16 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:42:17 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:42:21 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:42:21 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:42:21 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:42:25 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:42:25 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:42:26 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:42:37 | INFO | M07 | body_mass_g sweep:
+2026-08-12 21:42:37 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2773.469388     Adelie
+ 2846.938776     Adelie
+ 2920.408163     Adelie
+ 2993.877551     Adelie
+ 3067.346939     Adelie
+ 3140.816327     Adelie
+ 3214.285714     Adelie
+ 3287.755102     Adelie
+ 3361.224490     Adelie
+ 3434.693878     Adelie
+ 3508.163265     Adelie
+ 3581.632653     Adelie
+ 3655.102041     Adelie
+ 3728.571429     Adelie
+ 3802.040816     Adelie
+ 3875.510204     Adelie
+ 3948.979592     Adelie
+ 4022.448980     Adelie
+ 4095.918367     Adelie
+ 4169.387755     Adelie
+ 4242.857143     Adelie
+ 4316.326531     Adelie
+ 4389.795918     Adelie
+ 4463.265306     Adelie
+ 4536.734694     Adelie
+ 4610.204082     Adelie
+ 4683.673469     Adelie
+ 4757.142857     Adelie
+ 4830.612245     Adelie
+ 4904.081633     Adelie
+ 4977.551020     Adelie
+ 5051.020408     Adelie
+ 5124.489796     Adelie
+ 5197.959184     Adelie
+ 5271.428571     Adelie
+ 5344.897959     Adelie
+ 5418.367347     Adelie
+ 5491.836735     Adelie
+ 5565.306122     Adelie
+ 5638.775510     Adelie
+ 5712.244898     Adelie
+ 5785.714286     Adelie
+ 5859.183673     Adelie
+ 5932.653061     Adelie
+ 6006.122449     Adelie
+ 6079.591837     Adelie
+ 6153.061224     Adelie
+ 6226.530612     Adelie
+ 6300.000000     Adelie
+2026-08-12 21:42:37 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:43:01 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:43:02 | INFO | M07 | Edge case results:
+2026-08-12 21:43:02 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:43:02 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:43:03 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:43:03 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:43:03 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:43:03 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:43:03 | INFO | M07 | ========================
+2026-08-12 21:43:03 | INFO | M07 | SUMMARY
+2026-08-12 21:43:03 | INFO | M07 | ========================
+2026-08-12 21:43:03 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:43:03 | INFO | M07 | ========================
+2026-08-12 21:45:58 | INFO | M07 | === RUN START ===
+2026-08-12 21:45:58 | INFO | M07 | project=M07
+2026-08-12 21:45:58 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:45:58 | INFO | M07 | python=3.14.3
+2026-08-12 21:45:58 | INFO | M07 | os=Windows 11
+2026-08-12 21:45:58 | INFO | M07 | shell=powershell
+2026-08-12 21:45:58 | INFO | M07 | cwd=notebooks
+2026-08-12 21:45:58 | INFO | M07 | github_actions=False
+2026-08-12 21:45:58 | INFO | M07 | Confirming installation:
+2026-08-12 21:45:58 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:45:58 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:45:58 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:45:58 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:45:58 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:45:58 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:45:58 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:45:58 | INFO | M07 | Baseline predictions:
+2026-08-12 21:45:59 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:46:00 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:46:00 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:46:05 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:46:05 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:46:05 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:46:10 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:46:10 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:46:10 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:46:14 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:46:14 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:46:14 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:46:48 | INFO | M07 | body_mass_g sweep:
+2026-08-12 21:46:48 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2724.161074     Adelie
+ 2748.322148     Adelie
+ 2772.483221     Adelie
+ 2796.644295     Adelie
+ 2820.805369     Adelie
+ 2844.966443     Adelie
+ 2869.127517     Adelie
+ 2893.288591     Adelie
+ 2917.449664     Adelie
+ 2941.610738     Adelie
+ 2965.771812     Adelie
+ 2989.932886     Adelie
+ 3014.093960     Adelie
+ 3038.255034     Adelie
+ 3062.416107     Adelie
+ 3086.577181     Adelie
+ 3110.738255     Adelie
+ 3134.899329     Adelie
+ 3159.060403     Adelie
+ 3183.221477     Adelie
+ 3207.382550     Adelie
+ 3231.543624     Adelie
+ 3255.704698     Adelie
+ 3279.865772     Adelie
+ 3304.026846     Adelie
+ 3328.187919     Adelie
+ 3352.348993     Adelie
+ 3376.510067     Adelie
+ 3400.671141     Adelie
+ 3424.832215     Adelie
+ 3448.993289     Adelie
+ 3473.154362     Adelie
+ 3497.315436     Adelie
+ 3521.476510     Adelie
+ 3545.637584     Adelie
+ 3569.798658     Adelie
+ 3593.959732     Adelie
+ 3618.120805     Adelie
+ 3642.281879     Adelie
+ 3666.442953     Adelie
+ 3690.604027     Adelie
+ 3714.765101     Adelie
+ 3738.926174     Adelie
+ 3763.087248     Adelie
+ 3787.248322     Adelie
+ 3811.409396     Adelie
+ 3835.570470     Adelie
+ 3859.731544     Adelie
+ 3883.892617     Adelie
+ 3908.053691     Adelie
+ 3932.214765     Adelie
+ 3956.375839     Adelie
+ 3980.536913     Adelie
+ 4004.697987     Adelie
+ 4028.859060     Adelie
+ 4053.020134     Adelie
+ 4077.181208     Adelie
+ 4101.342282     Adelie
+ 4125.503356     Adelie
+ 4149.664430     Adelie
+ 4173.825503     Adelie
+ 4197.986577     Adelie
+ 4222.147651     Adelie
+ 4246.308725     Adelie
+ 4270.469799     Adelie
+ 4294.630872     Adelie
+ 4318.791946     Adelie
+ 4342.953020     Adelie
+ 4367.114094     Adelie
+ 4391.275168     Adelie
+ 4415.436242     Adelie
+ 4439.597315     Adelie
+ 4463.758389     Adelie
+ 4487.919463     Adelie
+ 4512.080537     Adelie
+ 4536.241611     Adelie
+ 4560.402685     Adelie
+ 4584.563758     Adelie
+ 4608.724832     Adelie
+ 4632.885906     Adelie
+ 4657.046980     Adelie
+ 4681.208054     Adelie
+ 4705.369128     Adelie
+ 4729.530201     Adelie
+ 4753.691275     Adelie
+ 4777.852349     Adelie
+ 4802.013423     Adelie
+ 4826.174497     Adelie
+ 4850.335570     Adelie
+ 4874.496644     Adelie
+ 4898.657718     Adelie
+ 4922.818792     Adelie
+ 4946.979866     Adelie
+ 4971.140940     Adelie
+ 4995.302013     Adelie
+ 5019.463087     Adelie
+ 5043.624161     Adelie
+ 5067.785235     Adelie
+ 5091.946309     Adelie
+ 5116.107383     Adelie
+ 5140.268456     Adelie
+ 5164.429530     Adelie
+ 5188.590604     Adelie
+ 5212.751678     Adelie
+ 5236.912752     Adelie
+ 5261.073826     Adelie
+ 5285.234899     Adelie
+ 5309.395973     Adelie
+ 5333.557047     Adelie
+ 5357.718121     Adelie
+ 5381.879195     Adelie
+ 5406.040268     Adelie
+ 5430.201342     Adelie
+ 5454.362416     Adelie
+ 5478.523490     Adelie
+ 5502.684564     Adelie
+ 5526.845638     Adelie
+ 5551.006711     Adelie
+ 5575.167785     Adelie
+ 5599.328859     Adelie
+ 5623.489933     Adelie
+ 5647.651007     Adelie
+ 5671.812081     Adelie
+ 5695.973154     Adelie
+ 5720.134228     Adelie
+ 5744.295302     Adelie
+ 5768.456376     Adelie
+ 5792.617450     Adelie
+ 5816.778523     Adelie
+ 5840.939597     Adelie
+ 5865.100671     Adelie
+ 5889.261745     Adelie
+ 5913.422819     Adelie
+ 5937.583893     Adelie
+ 5961.744966     Adelie
+ 5985.906040     Adelie
+ 6010.067114     Adelie
+ 6034.228188     Adelie
+ 6058.389262     Adelie
+ 6082.550336     Adelie
+ 6106.711409     Adelie
+ 6130.872483     Adelie
+ 6155.033557     Adelie
+ 6179.194631     Adelie
+ 6203.355705     Adelie
+ 6227.516779     Adelie
+ 6251.677852     Adelie
+ 6275.838926     Adelie
+ 6300.000000     Adelie
+2026-08-12 21:46:48 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:47:14 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:47:14 | INFO | M07 | Edge case results:
+2026-08-12 21:47:14 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:47:14 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:47:15 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:47:15 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:47:15 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:47:15 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:47:15 | INFO | M07 | ========================
+2026-08-12 21:47:15 | INFO | M07 | SUMMARY
+2026-08-12 21:47:15 | INFO | M07 | ========================
+2026-08-12 21:47:15 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:47:15 | INFO | M07 | ========================
+2026-08-12 21:50:52 | INFO | M07 | === RUN START ===
+2026-08-12 21:50:52 | INFO | M07 | project=M07
+2026-08-12 21:50:52 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:50:52 | INFO | M07 | python=3.14.3
+2026-08-12 21:50:52 | INFO | M07 | os=Windows 11
+2026-08-12 21:50:52 | INFO | M07 | shell=powershell
+2026-08-12 21:50:52 | INFO | M07 | cwd=notebooks
+2026-08-12 21:50:52 | INFO | M07 | github_actions=False
+2026-08-12 21:50:52 | INFO | M07 | Confirming installation:
+2026-08-12 21:50:52 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:50:52 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:50:52 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:50:52 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:50:52 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:50:52 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:50:52 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:50:52 | INFO | M07 | Baseline predictions:
+2026-08-12 21:50:52 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:50:52 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:50:53 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:50:57 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:50:57 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:50:57 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:51:02 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:51:02 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:51:02 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:51:07 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:51:07 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:51:07 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:51:18 | INFO | M07 | body_mass_g sweep:
+2026-08-12 21:51:18 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2773.469388     Adelie
+ 2846.938776     Adelie
+ 2920.408163     Adelie
+ 2993.877551     Adelie
+ 3067.346939     Adelie
+ 3140.816327     Adelie
+ 3214.285714     Adelie
+ 3287.755102     Adelie
+ 3361.224490     Adelie
+ 3434.693878     Adelie
+ 3508.163265     Adelie
+ 3581.632653     Adelie
+ 3655.102041     Adelie
+ 3728.571429     Adelie
+ 3802.040816     Adelie
+ 3875.510204     Adelie
+ 3948.979592     Adelie
+ 4022.448980     Adelie
+ 4095.918367     Adelie
+ 4169.387755     Adelie
+ 4242.857143     Adelie
+ 4316.326531     Adelie
+ 4389.795918     Adelie
+ 4463.265306     Adelie
+ 4536.734694     Adelie
+ 4610.204082     Adelie
+ 4683.673469     Adelie
+ 4757.142857     Adelie
+ 4830.612245     Adelie
+ 4904.081633     Adelie
+ 4977.551020     Adelie
+ 5051.020408     Adelie
+ 5124.489796     Adelie
+ 5197.959184     Adelie
+ 5271.428571     Adelie
+ 5344.897959     Adelie
+ 5418.367347     Adelie
+ 5491.836735     Adelie
+ 5565.306122     Adelie
+ 5638.775510     Adelie
+ 5712.244898     Adelie
+ 5785.714286     Adelie
+ 5859.183673     Adelie
+ 5932.653061     Adelie
+ 6006.122449     Adelie
+ 6079.591837     Adelie
+ 6153.061224     Adelie
+ 6226.530612     Adelie
+ 6300.000000     Adelie
+2026-08-12 21:51:18 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:51:41 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:51:41 | INFO | M07 | Edge case results:
+2026-08-12 21:51:41 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:51:42 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:51:42 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:51:42 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:51:42 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:51:42 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:51:42 | INFO | M07 | ========================
+2026-08-12 21:51:42 | INFO | M07 | SUMMARY
+2026-08-12 21:51:42 | INFO | M07 | ========================
+2026-08-12 21:51:42 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:51:42 | INFO | M07 | ========================
+2026-08-12 21:52:03 | INFO | M07 | === RUN START ===
+2026-08-12 21:52:03 | INFO | M07 | project=M07
+2026-08-12 21:52:03 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:52:03 | INFO | M07 | python=3.14.3
+2026-08-12 21:52:03 | INFO | M07 | os=Windows 11
+2026-08-12 21:52:03 | INFO | M07 | shell=powershell
+2026-08-12 21:52:03 | INFO | M07 | cwd=notebooks
+2026-08-12 21:52:03 | INFO | M07 | github_actions=False
+2026-08-12 21:52:03 | INFO | M07 | Confirming installation:
+2026-08-12 21:52:03 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:52:03 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:52:03 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:52:03 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:52:03 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:52:03 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:52:03 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:52:03 | INFO | M07 | Baseline predictions:
+2026-08-12 21:52:04 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:52:04 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:52:05 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:52:10 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:52:10 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:52:10 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:52:15 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:52:15 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:52:15 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:52:19 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 21:52:19 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 21:52:20 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:52:24 | INFO | M07 | body_mass_g sweep:
+2026-08-12 21:52:24 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2889.473684     Adelie
+ 3078.947368     Adelie
+ 3268.421053     Adelie
+ 3457.894737     Adelie
+ 3647.368421     Adelie
+ 3836.842105     Adelie
+ 4026.315789     Adelie
+ 4215.789474     Adelie
+ 4405.263158     Adelie
+ 4594.736842     Adelie
+ 4784.210526     Adelie
+ 4973.684211     Adelie
+ 5163.157895     Adelie
+ 5352.631579     Adelie
+ 5542.105263     Adelie
+ 5731.578947     Adelie
+ 5921.052632     Adelie
+ 6110.526316     Adelie
+ 6300.000000     Adelie
+2026-08-12 21:52:24 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:52:47 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 21:52:47 | INFO | M07 | Edge case results:
+2026-08-12 21:52:47 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:52:47 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 21:52:48 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 21:52:48 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 21:52:48 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 21:52:48 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 21:52:48 | INFO | M07 | ========================
+2026-08-12 21:52:48 | INFO | M07 | SUMMARY
+2026-08-12 21:52:48 | INFO | M07 | ========================
+2026-08-12 21:52:48 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:52:48 | INFO | M07 | ========================
+2026-08-12 21:58:48 | INFO | M07 | === RUN START ===
+2026-08-12 21:58:48 | INFO | M07 | project=M07
+2026-08-12 21:58:48 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 21:58:48 | INFO | M07 | python=3.14.3
+2026-08-12 21:58:48 | INFO | M07 | os=Windows 11
+2026-08-12 21:58:48 | INFO | M07 | shell=powershell
+2026-08-12 21:58:48 | INFO | M07 | cwd=notebooks
+2026-08-12 21:58:48 | INFO | M07 | github_actions=False
+2026-08-12 21:58:48 | INFO | M07 | Confirming installation:
+2026-08-12 21:58:48 | INFO | M07 |   python:       3.14.3
+2026-08-12 21:58:48 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 21:58:48 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 21:58:48 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 21:58:48 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 21:58:48 | INFO | M07 |   requests:     2.34.2
+2026-08-12 21:58:48 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 21:58:48 | INFO | M07 | Baseline predictions:
+2026-08-12 21:58:50 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 21:58:50 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 21:58:50 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 21:58:54 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 21:58:54 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 21:58:54 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 21:58:59 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 21:58:59 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 21:58:59 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 22:00:25 | INFO | M07 | === RUN START ===
+2026-08-12 22:00:25 | INFO | M07 | project=M07
+2026-08-12 22:00:25 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-12 22:00:25 | INFO | M07 | python=3.14.3
+2026-08-12 22:00:25 | INFO | M07 | os=Windows 11
+2026-08-12 22:00:25 | INFO | M07 | shell=powershell
+2026-08-12 22:00:25 | INFO | M07 | cwd=notebooks
+2026-08-12 22:00:25 | INFO | M07 | github_actions=False
+2026-08-12 22:00:25 | INFO | M07 | Confirming installation:
+2026-08-12 22:00:25 | INFO | M07 |   python:       3.14.3
+2026-08-12 22:00:25 | INFO | M07 |   pandas:       3.0.5
+2026-08-12 22:00:25 | INFO | M07 |   numpy:        2.5.2
+2026-08-12 22:00:25 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-12 22:00:25 | INFO | M07 |   seaborn:      0.13.2
+2026-08-12 22:00:25 | INFO | M07 |   requests:     2.34.2
+2026-08-12 22:00:25 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 22:00:25 | INFO | M07 | Baseline predictions:
+2026-08-12 22:00:26 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-12 22:00:26 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-12 22:00:26 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-12 22:00:31 | INFO | M07 | bill_length_mm sweep:
+2026-08-12 22:00:31 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-12 22:00:31 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 22:00:36 | INFO | M07 | flipper_length_mm sweep:
+2026-08-12 22:00:36 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-12 22:00:36 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 22:00:40 | INFO | M07 | bill_depth_mm sweep:
+2026-08-12 22:00:40 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-12 22:00:41 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 22:01:25 | INFO | M07 | body_mass_g sweep:
+2026-08-12 22:01:25 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2718.090452     Adelie
+ 2736.180905     Adelie
+ 2754.271357     Adelie
+ 2772.361809     Adelie
+ 2790.452261     Adelie
+ 2808.542714     Adelie
+ 2826.633166     Adelie
+ 2844.723618     Adelie
+ 2862.814070     Adelie
+ 2880.904523     Adelie
+ 2898.994975     Adelie
+ 2917.085427     Adelie
+ 2935.175879     Adelie
+ 2953.266332     Adelie
+ 2971.356784     Adelie
+ 2989.447236     Adelie
+ 3007.537688     Adelie
+ 3025.628141     Adelie
+ 3043.718593     Adelie
+ 3061.809045     Adelie
+ 3079.899497     Adelie
+ 3097.989950     Adelie
+ 3116.080402     Adelie
+ 3134.170854     Adelie
+ 3152.261307     Adelie
+ 3170.351759     Adelie
+ 3188.442211     Adelie
+ 3206.532663     Adelie
+ 3224.623116     Adelie
+ 3242.713568     Adelie
+ 3260.804020     Adelie
+ 3278.894472     Adelie
+ 3296.984925     Adelie
+ 3315.075377     Adelie
+ 3333.165829     Adelie
+ 3351.256281     Adelie
+ 3369.346734     Adelie
+ 3387.437186     Adelie
+ 3405.527638     Adelie
+ 3423.618090     Adelie
+ 3441.708543     Adelie
+ 3459.798995     Adelie
+ 3477.889447     Adelie
+ 3495.979899     Adelie
+ 3514.070352     Adelie
+ 3532.160804     Adelie
+ 3550.251256     Adelie
+ 3568.341709     Adelie
+ 3586.432161     Adelie
+ 3604.522613     Adelie
+ 3622.613065     Adelie
+ 3640.703518     Adelie
+ 3658.793970     Adelie
+ 3676.884422     Adelie
+ 3694.974874     Adelie
+ 3713.065327     Adelie
+ 3731.155779     Adelie
+ 3749.246231     Adelie
+ 3767.336683     Adelie
+ 3785.427136     Adelie
+ 3803.517588     Adelie
+ 3821.608040     Adelie
+ 3839.698492     Adelie
+ 3857.788945     Adelie
+ 3875.879397     Adelie
+ 3893.969849     Adelie
+ 3912.060302     Adelie
+ 3930.150754     Adelie
+ 3948.241206     Adelie
+ 3966.331658     Adelie
+ 3984.422111     Adelie
+ 4002.512563     Adelie
+ 4020.603015     Adelie
+ 4038.693467     Adelie
+ 4056.783920     Adelie
+ 4074.874372     Adelie
+ 4092.964824     Adelie
+ 4111.055276     Adelie
+ 4129.145729     Adelie
+ 4147.236181     Adelie
+ 4165.326633     Adelie
+ 4183.417085     Adelie
+ 4201.507538     Adelie
+ 4219.597990     Adelie
+ 4237.688442     Adelie
+ 4255.778894     Adelie
+ 4273.869347     Adelie
+ 4291.959799     Adelie
+ 4310.050251     Adelie
+ 4328.140704     Adelie
+ 4346.231156     Adelie
+ 4364.321608     Adelie
+ 4382.412060     Adelie
+ 4400.502513     Adelie
+ 4418.592965     Adelie
+ 4436.683417     Adelie
+ 4454.773869     Adelie
+ 4472.864322     Adelie
+ 4490.954774     Adelie
+ 4509.045226     Adelie
+ 4527.135678     Adelie
+ 4545.226131     Adelie
+ 4563.316583     Adelie
+ 4581.407035     Adelie
+ 4599.497487     Adelie
+ 4617.587940     Adelie
+ 4635.678392     Adelie
+ 4653.768844     Adelie
+ 4671.859296     Adelie
+ 4689.949749     Adelie
+ 4708.040201     Adelie
+ 4726.130653     Adelie
+ 4744.221106     Adelie
+ 4762.311558     Adelie
+ 4780.402010     Adelie
+ 4798.492462     Adelie
+ 4816.582915     Adelie
+ 4834.673367     Adelie
+ 4852.763819     Adelie
+ 4870.854271     Adelie
+ 4888.944724     Adelie
+ 4907.035176     Adelie
+ 4925.125628     Adelie
+ 4943.216080     Adelie
+ 4961.306533     Adelie
+ 4979.396985     Adelie
+ 4997.487437     Adelie
+ 5015.577889     Adelie
+ 5033.668342     Adelie
+ 5051.758794     Adelie
+ 5069.849246     Adelie
+ 5087.939698     Adelie
+ 5106.030151     Adelie
+ 5124.120603     Adelie
+ 5142.211055     Adelie
+ 5160.301508     Adelie
+ 5178.391960     Adelie
+ 5196.482412     Adelie
+ 5214.572864     Adelie
+ 5232.663317     Adelie
+ 5250.753769     Adelie
+ 5268.844221     Adelie
+ 5286.934673     Adelie
+ 5305.025126     Adelie
+ 5323.115578     Adelie
+ 5341.206030     Adelie
+ 5359.296482     Adelie
+ 5377.386935     Adelie
+ 5395.477387     Adelie
+ 5413.567839     Adelie
+ 5431.658291     Adelie
+ 5449.748744     Adelie
+ 5467.839196     Adelie
+ 5485.929648     Adelie
+ 5504.020101     Adelie
+ 5522.110553     Adelie
+ 5540.201005     Adelie
+ 5558.291457     Adelie
+ 5576.381910     Adelie
+ 5594.472362     Adelie
+ 5612.562814     Adelie
+ 5630.653266     Adelie
+ 5648.743719     Adelie
+ 5666.834171     Adelie
+ 5684.924623     Adelie
+ 5703.015075     Adelie
+ 5721.105528     Adelie
+ 5739.195980     Adelie
+ 5757.286432     Adelie
+ 5775.376884     Adelie
+ 5793.467337     Adelie
+ 5811.557789     Adelie
+ 5829.648241     Adelie
+ 5847.738693     Adelie
+ 5865.829146     Adelie
+ 5883.919598     Adelie
+ 5902.010050     Adelie
+ 5920.100503     Adelie
+ 5938.190955     Adelie
+ 5956.281407     Adelie
+ 5974.371859     Adelie
+ 5992.462312     Adelie
+ 6010.552764     Adelie
+ 6028.643216     Adelie
+ 6046.733668     Adelie
+ 6064.824121     Adelie
+ 6082.914573     Adelie
+ 6101.005025     Adelie
+ 6119.095477     Adelie
+ 6137.185930     Adelie
+ 6155.276382     Adelie
+ 6173.366834     Adelie
+ 6191.457286     Adelie
+ 6209.547739     Adelie
+ 6227.638191     Adelie
+ 6245.728643     Adelie
+ 6263.819095     Adelie
+ 6281.909548     Adelie
+ 6300.000000     Adelie
+2026-08-12 22:01:25 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-12 22:01:47 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-12 22:01:47 | INFO | M07 | Edge case results:
+2026-08-12 22:01:47 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 22:01:48 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-12 22:01:48 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-12 22:01:48 | INFO | M07 |   negative value         -> Adelie
+2026-08-12 22:01:48 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-12 22:01:48 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-12 22:01:49 | INFO | M07 | ========================
+2026-08-12 22:01:49 | INFO | M07 | SUMMARY
+2026-08-12 22:01:49 | INFO | M07 | ========================
+2026-08-12 22:01:49 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-12 22:01:49 | INFO | M07 | ========================
+2026-08-13 17:00:58 | INFO | M07 | === RUN START ===
+2026-08-13 17:00:58 | INFO | M07 | project=M07
+2026-08-13 17:00:58 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-13 17:00:58 | INFO | M07 | python=3.14.3
+2026-08-13 17:00:58 | INFO | M07 | os=Windows 11
+2026-08-13 17:00:58 | INFO | M07 | shell=powershell
+2026-08-13 17:00:58 | INFO | M07 | cwd=notebooks
+2026-08-13 17:00:58 | INFO | M07 | github_actions=False
+2026-08-13 17:00:58 | INFO | M07 | Confirming installation:
+2026-08-13 17:00:58 | INFO | M07 |   python:       3.14.3
+2026-08-13 17:00:58 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 17:00:58 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 17:00:58 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 17:00:58 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 17:00:58 | INFO | M07 |   requests:     2.34.2
+2026-08-13 17:00:58 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 17:00:58 | INFO | M07 | Baseline predictions:
+2026-08-13 17:00:59 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 17:00:59 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 17:01:00 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 17:01:04 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 17:01:04 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 17:01:05 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 17:01:09 | INFO | M07 | flipper_length_mm sweep:
+2026-08-13 17:01:09 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-13 17:01:09 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 17:01:13 | INFO | M07 | bill_depth_mm sweep:
+2026-08-13 17:01:13 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-13 17:01:13 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 17:01:17 | INFO | M07 | body_mass_g sweep:
+2026-08-13 17:01:17 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2889.473684     Adelie
+ 3078.947368     Adelie
+ 3268.421053     Adelie
+ 3457.894737     Adelie
+ 3647.368421     Adelie
+ 3836.842105     Adelie
+ 4026.315789     Adelie
+ 4215.789474     Adelie
+ 4405.263158     Adelie
+ 4594.736842     Adelie
+ 4784.210526     Adelie
+ 4973.684211     Adelie
+ 5163.157895     Adelie
+ 5352.631579     Adelie
+ 5542.105263     Adelie
+ 5731.578947     Adelie
+ 5921.052632     Adelie
+ 6110.526316     Adelie
+ 6300.000000     Adelie
+2026-08-13 17:01:17 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 17:01:38 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-13 17:01:38 | INFO | M07 | Edge case results:
+2026-08-13 17:01:38 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 17:01:39 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-13 17:01:39 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-13 17:01:39 | INFO | M07 |   negative value         -> Adelie
+2026-08-13 17:01:39 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-13 17:01:39 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-13 17:01:39 | INFO | M07 | ========================
+2026-08-13 17:01:39 | INFO | M07 | SUMMARY
+2026-08-13 17:01:39 | INFO | M07 | ========================
+2026-08-13 17:01:39 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 17:01:39 | INFO | M07 | ========================
+2026-08-13 17:12:17 | INFO | M07 | body_mass_g sweep:
+2026-08-13 17:12:17 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2889.473684     Adelie
+ 3078.947368     Adelie
+ 3268.421053     Adelie
+ 3457.894737     Adelie
+ 3647.368421     Adelie
+ 3836.842105     Adelie
+ 4026.315789     Adelie
+ 4215.789474     Adelie
+ 4405.263158     Adelie
+ 4594.736842     Adelie
+ 4784.210526     Adelie
+ 4973.684211     Adelie
+ 5163.157895     Adelie
+ 5352.631579     Adelie
+ 5542.105263     Adelie
+ 5731.578947     Adelie
+ 5921.052632     Adelie
+ 6110.526316     Adelie
+ 6300.000000     Adelie
+2026-08-13 17:12:18 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 17:12:38 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-13 17:12:38 | INFO | M07 | Edge case results:
+2026-08-13 17:12:38 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 17:12:38 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-13 17:12:38 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-13 17:12:38 | INFO | M07 |   negative value         -> Adelie
+2026-08-13 17:12:39 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-13 17:12:39 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-13 17:12:39 | INFO | M07 | ========================
+2026-08-13 17:12:39 | INFO | M07 | SUMMARY
+2026-08-13 17:12:39 | INFO | M07 | ========================
+2026-08-13 17:12:39 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 17:12:39 | INFO | M07 | ========================
+2026-08-13 18:36:45 | INFO | M07 | === RUN START ===
+2026-08-13 18:36:45 | INFO | M07 | project=M07
+2026-08-13 18:36:45 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-13 18:36:45 | INFO | M07 | python=3.14.3
+2026-08-13 18:36:45 | INFO | M07 | os=Windows 11
+2026-08-13 18:36:45 | INFO | M07 | shell=powershell
+2026-08-13 18:36:45 | INFO | M07 | cwd=notebooks
+2026-08-13 18:36:45 | INFO | M07 | github_actions=False
+2026-08-13 18:36:45 | INFO | M07 | Confirming installation:
+2026-08-13 18:36:45 | INFO | M07 |   python:       3.14.3
+2026-08-13 18:36:45 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 18:36:45 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 18:36:45 | INFO | M07 |   scikit-learn: 1.9.0
+2026-08-13 18:36:45 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 18:36:45 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:15:34 | INFO | M07 | === RUN START ===
+2026-08-13 19:15:34 | INFO | M07 | project=M07
+2026-08-13 19:15:34 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-13 19:15:34 | INFO | M07 | python=3.14.3
+2026-08-13 19:15:34 | INFO | M07 | os=Windows 11
+2026-08-13 19:15:34 | INFO | M07 | shell=powershell
+2026-08-13 19:15:34 | INFO | M07 | cwd=notebooks
+2026-08-13 19:15:34 | INFO | M07 | github_actions=False
+2026-08-13 19:15:34 | INFO | M07 | Confirming installation:
+2026-08-13 19:15:34 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:15:34 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:15:34 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:15:34 | INFO | M07 |   scikit-learn: 1.9.0
+2026-08-13 19:15:34 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:15:34 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:20:16 | INFO | M07 | === RUN START ===
+2026-08-13 19:20:16 | INFO | M07 | project=M07
+2026-08-13 19:20:16 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-13 19:20:16 | INFO | M07 | python=3.14.3
+2026-08-13 19:20:16 | INFO | M07 | os=Windows 11
+2026-08-13 19:20:16 | INFO | M07 | shell=powershell
+2026-08-13 19:20:16 | INFO | M07 | cwd=notebooks
+2026-08-13 19:20:16 | INFO | M07 | github_actions=False
+2026-08-13 19:20:16 | INFO | M07 | Confirming installation:
+2026-08-13 19:20:16 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:20:16 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:20:16 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:20:16 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:20:16 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:20:16 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:20:16 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:20:16 | INFO | M07 | Baseline predictions:
+2026-08-13 19:20:16 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:20:16 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:20:17 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:20:22 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 19:20:22 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 19:20:23 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:20:27 | INFO | M07 | flipper_length_mm sweep:
+2026-08-13 19:20:27 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-13 19:20:27 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:20:31 | INFO | M07 | bill_depth_mm sweep:
+2026-08-13 19:20:31 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-13 19:20:31 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:20:35 | INFO | M07 | body_mass_g sweep:
+2026-08-13 19:20:35 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2889.473684     Adelie
+ 3078.947368     Adelie
+ 3268.421053     Adelie
+ 3457.894737     Adelie
+ 3647.368421     Adelie
+ 3836.842105     Adelie
+ 4026.315789     Adelie
+ 4215.789474     Adelie
+ 4405.263158     Adelie
+ 4594.736842     Adelie
+ 4784.210526     Adelie
+ 4973.684211     Adelie
+ 5163.157895     Adelie
+ 5352.631579     Adelie
+ 5542.105263     Adelie
+ 5731.578947     Adelie
+ 5921.052632     Adelie
+ 6110.526316     Adelie
+ 6300.000000     Adelie
+2026-08-13 19:20:36 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:25:07 | INFO | M07 | === RUN START ===
+2026-08-13 19:25:07 | INFO | M07 | project=M07
+2026-08-13 19:25:07 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-13 19:25:07 | INFO | M07 | python=3.14.3
+2026-08-13 19:25:07 | INFO | M07 | os=Windows 11
+2026-08-13 19:25:07 | INFO | M07 | shell=powershell
+2026-08-13 19:25:07 | INFO | M07 | cwd=notebooks
+2026-08-13 19:25:07 | INFO | M07 | github_actions=False
+2026-08-13 19:25:07 | INFO | M07 | Confirming installation:
+2026-08-13 19:25:07 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:25:07 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:25:07 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:25:07 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:25:07 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:25:07 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:25:07 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:25:07 | INFO | M07 | Baseline predictions:
+2026-08-13 19:25:07 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:25:07 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:25:08 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:25:12 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 19:25:12 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 19:25:12 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:25:16 | INFO | M07 | flipper_length_mm sweep:
+2026-08-13 19:25:16 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-13 19:25:16 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:25:20 | INFO | M07 | bill_depth_mm sweep:
+2026-08-13 19:25:20 | INFO | M07 |  bill_depth_mm prediction
+     13.000000     Adelie
+     13.473684     Adelie
+     13.947368     Adelie
+     14.421053     Adelie
+     14.894737     Adelie
+     15.368421     Adelie
+     15.842105     Adelie
+     16.315789     Adelie
+     16.789474     Adelie
+     17.263158     Adelie
+     17.736842     Adelie
+     18.210526     Adelie
+     18.684211     Adelie
+     19.157895     Adelie
+     19.631579     Adelie
+     20.105263     Adelie
+     20.578947     Adelie
+     21.052632     Adelie
+     21.526316     Adelie
+     22.000000     Adelie
+2026-08-13 19:25:20 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:25:25 | INFO | M07 | body_mass_g sweep:
+2026-08-13 19:25:25 | INFO | M07 |  body_mass_g prediction
+ 2700.000000     Adelie
+ 2889.473684     Adelie
+ 3078.947368     Adelie
+ 3268.421053     Adelie
+ 3457.894737     Adelie
+ 3647.368421     Adelie
+ 3836.842105     Adelie
+ 4026.315789     Adelie
+ 4215.789474     Adelie
+ 4405.263158     Adelie
+ 4594.736842     Adelie
+ 4784.210526     Adelie
+ 4973.684211     Adelie
+ 5163.157895     Adelie
+ 5352.631579     Adelie
+ 5542.105263     Adelie
+ 5731.578947     Adelie
+ 5921.052632     Adelie
+ 6110.526316     Adelie
+ 6300.000000     Adelie
+2026-08-13 19:25:25 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:26:08 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-13 19:26:08 | INFO | M07 | Edge case results:
+2026-08-13 19:26:08 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:26:08 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-13 19:26:08 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-13 19:26:08 | INFO | M07 |   negative value         -> Adelie
+2026-08-13 19:26:09 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-13 19:26:09 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-13 19:26:09 | INFO | M07 | ========================
+2026-08-13 19:26:09 | INFO | M07 | SUMMARY
+2026-08-13 19:26:09 | INFO | M07 | ========================
+2026-08-13 19:26:09 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:26:09 | INFO | M07 | ========================

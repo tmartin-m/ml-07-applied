@@ -27,6 +27,7 @@ See [docs/your-files.md] for more.
 Links:
 
 - [ml_07_case.ipynb](notebooks/ml_07_case.ipynb)
+- [ml_07_tmartin.ipynb](notebooks/ml_07_tmartin.ipynb)
 
 ## Working Files
 
@@ -189,9 +190,11 @@ Remove unnecessary instructional comments in your custom files.
 
 Update figures to present interesting results from your custom project:
 
-![Provide a Useful Caption](./docs/images/Figure_1.png)
+![Flipper Length](./docs/images/output1.png)
 
-![Provide a Useful Caption](./docs/images/Figure_2.png)
+![Bill Depth](./docs/images/output2.png)
+
+![Mass](./docs/images/output3.png)
 
 ## Project Documentation
 
